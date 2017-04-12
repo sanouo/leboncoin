@@ -1,40 +1,202 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>leboncoin | page d'accueil</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+    <!-- Add your site or application content here -->
+    <!-- rules of the page accueil -->
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+
+    <!-- end rules of the page accueil -->
+
+
+
+
+
+    <!-- start of the header -->
+    <div class="top">
+
+        <aside class="menu">
+            <a href="#">MENU</a>
+        </aside>
+
+        <aside class="img">
+            <figure>
+                <a href="#"><img src="" alt=""></a>
+            </figure>
+        </aside>
+
+        <nav class="accueil">
+            <ul>
+                <li><a href="#">ACCUEIL</a></li>
+                <li><a href="#">DEPOSER UNE ANNONCE</a></li>
+                <li><a href="#">OFFRES</a></li>
+                <li><a href="#">DEMANDES</a></li>
+                <li><a href="#">MES ANNONCES</a></li>
+                <li><a href="#">BOUTIQUES</a></li>
+            </ul>
+        </nav>
+
+
+        <aside class="button">
+            <!-- <i class="material-icons">perm_identity</i> -->
+            <button type="button" name="button"><i class="material-icons">perm_identity</i>Se connecter</button>
+        </aside>
+
+    </div>
+
+    <!-- end of the header -->
+
+
+
+
+    <!-- start of the div class containers -->
+    <div class="containers">
+
+        <section class="deposer">
+            <h2></h2>
+            <a href="#"></a>
+            <a href="#"></a>
+        </section>
+
+        <figure class="carte">
+            <img src="" alt="">
+        </figure>
+
+        <aside class="region">
+            <ul>
+              <li><a href="#">Alsace</a></li>
+              <li><a href="#">Aquitaine</a></li>
+              <li><a href="#">Auvergne</a></li>
+              <li><a href="#">Basse-Normandie</a></li>
+              <li><a href="#">Bourgogne</a></li>
+              <li><a href="#">Bretagne</a></li>
+              <li><a href="#">Centre</a></li>
+              <li><a href="#">Champagne-Ardenne</a></li>
+              <li><a href="#">Corse</a></li>
+              <li><a href="#">Franche-Comté</a></li>
+              <li><a href="#">Haute-Normandie</a></li>
+              <li><a href="#">Ile-de-France</a></li>
+              <li><a href="#">Languedoc-Roussillon</a></li>
+              <li><a href="#">Limousin</a></li>
+              <li><a href="#">Lorraine</a></li>
+              <li><a href="#">Midi-Pyrénées</a></li>
+              <li><a href="#">Nord-Pas-de-Calais</a></li>
+              <li><a href="#">Pays de la Loire</a></li>
+              <li><a href="#">Picardie</a></li>
+              <li><a href="#">Poitou-Charentes</a></li>
+              <li><a href="#">Provence-Alpes-Côte d'Azur</a></li>
+              <li><a href="#">Rhône-Alpes</a></li>
+              <li><a href="#">Guadeloupe</a></li>
+              <li><a href="#">Martinique</a></li>
+              <li><a href="#">Guyane</a></li>
+              <li><a href="#">Réunion</a></li>
+            </ul>
+        </aside>
+
+
+        <select class="choix" name="region">
+          <option value="choississez votre region">choississez votre region</option>
+          <option value="Alsace">Alsace</option>
+          <option value="Aquitaine">Aquitaine</option>
+          <option value="Auvergne">Auvergne</option>
+          <option value="Basse-Normandie">Basse-Normandie</option>
+          <option value="Bourgogne">Bourgogne</option>
+          <option value="Bretagne">Bretagne</option>
+          <option value="Centre">Centre</option>
+          <option value="Champagne-Ardenne">Champagne-Ardenne</option>
+          <option value="Corse">Corse</option>
+          <option value="Franche-Comté">Franche-Comté</option>
+          <option value="Haute-Normandie">Haute-Normandie</option>
+          <option value="Ile-de-France">Ile-de-France</option>
+          <option value="Languedoc-Roussillon">Languedoc-Roussillon</option>
+          <option value="Limousin">Limousin</option>
+          <option value="Lorraine">Lorraine</option>
+          <option value="Midi-Pyrénées">Midi-Pyrénées</option>
+          <option value="Nord-Pas-de-Calais">Nord-Pas-de-Calais</option>
+          <option value="Pays de la Loire">Pays de la Loire</option>
+          <option value="Picardie">Picardie</option>
+          <option value="Poitou-Charentes">Poitou-Charentes</option>
+          <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+          <option value="Rhône-Alpes">Rhône-Alpes</option>
+          <option value="Guadeloupe">Guadeloupe</option>
+          <option value="Martinique">Martinique</option>
+          <option value="Guyane">Guyane</option>
+          <option value="Réunion">Réunion</option>
+        </select>
+
+
+        <p>Sur le site <a href="#">leboncoin.fr</a>, passez des <a href="#">annonces gratuites</a> et sans commission.
+          Vous pouvez <a href="#">consulter des petites annonces, de <a href="#">particuliers</a>, et de
+          <a href="#">professionnels</a>, partout en France, que vous cherchiez des <a href="#">annonces immobilières</a>,
+           des <a href="#">voitures d'occasion</a>, des <a href="#">offres d'emploi</a>, des <a href="#">meubles</a>,
+           du <a href="#">matériel électronique</a> ou tout autre type de <a href="#">produits d'occasion</a>.</p>
+
+    </div>
+    <!-- end of the div class containers -->
+
+
+    <!-- start of the footer -->
+    <footer>
+      <p>leboncoin 2006 - 2017</p>
+      <i class="fa fa-facebook-square"></i>
+      <i class="fa fa-twitter-square"></i>
+    </footer>
+
+    <!-- end of the footer -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
