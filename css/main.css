@@ -94,8 +94,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*rules common*/
+img
+{
+  width: 100%;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+li
+{
+  list-style-type: none;
+}
+/*end rules common*/
 
 
+
+/*rules of the header*/
+.accueil , .button
+{
+  display: none;
+}
+
+.top
+{
+  background-color: #f56b2a;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu
+{
+  margin: 1em;
+  background-color: white;
+  border-radius: 7px;
+  padding: 11px;
+}
+
+.menu a
+{
+  color: #f56b2a;
+}
+/*end rules of the header*/
+
+
+/*rules of the containers*/
+.deposer
+{
+  margin-top: 6em;
+}
+/*end rules of the containers*/
 
 
 
