@@ -195,6 +195,7 @@ h2
   padding: 8px;
   color: white;
   font-size: 12px;
+
 }
 
 .deposer .depo
@@ -260,7 +261,7 @@ footer p
     display: block;
   }
 
-  .menu
+  .menu , .choix
   {
     display: none;
   }
@@ -300,6 +301,46 @@ footer p
 }
 /*end rules of the header*/
 
+
+
+
+/*rules div class containers*/
+.deposer
+{
+  width: 25%;
+}
+
+.carte
+{
+  width: 35%;
+}
+
+.region
+{
+  width: 25%;
+}
+
+.containers
+{
+  justify-content: space-around;
+  margin-top: 5em;
+}
+
+.containers p
+{
+  margin: 1em;
+}
+
+.deposer
+{
+  justify-content: flex-start;
+}
+
+.region a:hover
+{
+  color: #f56b2a;
+}
+/*end rules div class containers*/
 
 
 
