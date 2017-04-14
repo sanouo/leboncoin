@@ -252,13 +252,53 @@ footer p
 
 
 
-
-
-
-@media (min-width:768px)
+@media (min-width:1024px)
 {
 
+  .accueil , .button , .region
+  {
+    display: block;
+  }
+
+  .menu
+  {
+    display: none;
+  }
+
 }
+
+/*rules of the header*/
+.top
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accueil ul
+{
+  display: flex;
+}
+
+.accueil li a
+{
+  color: white;
+  font-size: 12px;
+  padding: 1em;
+}
+
+.accueil li a:hover
+{
+  text-decoration: underline;
+}
+
+.button button
+{
+  height: 70px;
+  background-color: #f56b2a;
+  border: 1em solid #f56b2a;
+  color: white;
+}
+/*end rules of the header*/
 
 
 
