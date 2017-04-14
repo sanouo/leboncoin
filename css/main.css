@@ -266,7 +266,6 @@ footer p
     display: none;
   }
 
-}
 
 /*rules of the header*/
 .top
@@ -284,7 +283,7 @@ footer p
 {
   color: white;
   font-size: 12px;
-  padding: 1em;
+  padding: 5px;
 }
 
 .accueil li a:hover
@@ -296,7 +295,7 @@ footer p
 {
   height: 70px;
   background-color: #f56b2a;
-  border: 1em solid #f56b2a;
+  border: 10px solid #f56b2a;
   color: white;
 }
 /*end rules of the header*/
@@ -320,9 +319,13 @@ footer p
   width: 25%;
 }
 
+.region li
+{
+  text-align: right;
+}
 .containers
 {
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 5em;
 }
 
@@ -342,6 +345,7 @@ footer p
 }
 /*end rules div class containers*/
 
+}
 
 
 
