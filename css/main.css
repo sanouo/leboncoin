@@ -273,7 +273,7 @@ h1
   color: #989898;
 }
 
-h2
+.title
 {
   border: 5px #666 solid;
   background-color: #666;
@@ -283,11 +283,21 @@ h2
   padding: 8px;
 }
 
-.liste
+.photo , .localisation , .infor
 {
-  border: 1px lightgrey solid;
-  padding: 8px;
+  margin-left: 10px;
 }
+
+label , h3
+{
+  font-size: 13px;
+}
+
+select
+{
+  width: 90%;
+}
+
 /*rules of the section class formul*/
 
 /*end rules page offre*/
