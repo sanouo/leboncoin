@@ -94,6 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*rules page home*/
+
 /*rules common*/
 img
 {
@@ -248,6 +250,51 @@ footer p
   color: white;
 }
 /*end rules of the footer*/
+
+/*end rules page home*/
+
+
+
+
+
+
+/*rules page offre*/
+
+/*rules of the section class formul*/
+.formul
+{
+  margin-top: 6em;
+  margin-left: 10px;
+}
+
+h1
+{
+  font-size: 15px;
+  color: #989898;
+}
+
+h2
+{
+  border: 5px #666 solid;
+  background-color: #666;
+  color: white;
+  height: 30px;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+.liste
+{
+  border: 1px lightgrey solid;
+  padding: 8px;
+}
+/*rules of the section class formul*/
+
+/*end rules page offre*/
+
+
+
+
 
 
 
