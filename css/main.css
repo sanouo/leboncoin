@@ -375,6 +375,25 @@ select , input , textarea
 /*end rules aside class cart*/
 
 
+
+/*rules div class fin*/
+
+.fin p
+{
+  color: black;
+  font-size: 15px;
+  text-align: right;
+}
+
+.fin a
+{
+  background-color: #4183d7;
+  color: white;
+  border-radius: 5px;
+}
+/*end rules div class fin*/
+
+
 /*end rules page annonce*/
 
 
