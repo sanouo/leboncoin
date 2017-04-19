@@ -95,7 +95,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*rules page home*/
-
 /*rules common*/
 img
 {
@@ -303,6 +302,78 @@ select , input , textarea
   width: 40px;
 }
 /*rules of the section class formul*/
+
+
+
+
+
+/*rules section class photo*/
+.photo
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo1 , .photo2 , .photo3
+{
+  background-color: #e6e6e6;
+  width: 20%;
+  padding: 5px;
+  border: 1px dashed grey;
+  border-radius: 2px;
+}
+
+.supplement
+{
+  color: #f56b2a;
+  width: 90%;
+  border: 1px dashed #f56b2a;
+  border-radius: 2px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.supplement .material-icons
+{
+  color: black;
+  margin-top: 18px;
+}
+/*end rules section class photo*/
+
+
+
+
+/*rules section class localisation*/
+.ville a
+{
+  background-color: #f56b2a;
+  color: white;
+  border-radius: 7px;
+  width: 90%;
+}
+
+.ville p
+{
+  background-color: #d9e6f7;
+  border-radius: 3px;
+  padding: 1em;
+  font-size: 13px;
+  width: 90%;
+}
+/*end rules section class localisation*/
+
+
+
+
+/*rules aside class cart*/
+.cart figure
+{
+  width: 80%;
+}
+/*end rules aside class cart*/
+
 
 /*end rules page annonce*/
 
