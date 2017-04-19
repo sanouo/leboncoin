@@ -258,7 +258,7 @@ footer p
 
 
 
-/*rules page offre*/
+/*rules page annonce*/
 
 /*rules of the section class formul*/
 .formul
@@ -293,14 +293,18 @@ label , h3
   font-size: 13px;
 }
 
-select
+select , input , textarea
 {
   width: 90%;
 }
 
+.rad
+{
+  width: 40px;
+}
 /*rules of the section class formul*/
 
-/*end rules page offre*/
+/*end rules page annonce*/
 
 
 
