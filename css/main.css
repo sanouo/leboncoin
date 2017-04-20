@@ -370,7 +370,7 @@ select , input , textarea
 /*rules aside class cart*/
 .cart figure
 {
-  width: 80%;
+  width: 70%;
 }
 /*end rules aside class cart*/
 
@@ -499,6 +499,75 @@ select , input , textarea
 }
 
 
+
+/*rules page annonce*/
+@media (min-width:1024px)
+{
+
+  /*rules page annonce*/
+
+  /*rules of the section class formul*/
+
+
+  select , input , textarea
+  {
+    width: 50%;
+  }
+
+  /*rules of the section class formul*/
+
+
+
+  /*rules section class photo*/
+  .photo
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .photo1 , .photo2 , .photo3
+  {
+    width: 15%;
+  }
+
+  .supplement
+  {
+    width: 15%;
+  }
+
+  .photo h3
+  {
+    width: 100%;
+  }
+  /*end rules section class photo*/
+
+
+
+
+  /*rules section class localisation*/
+  .ville a
+  {
+    width: 20%;
+  }
+
+  .ville p
+  {
+    width: 50%;
+  }
+  /*end rules section class localisation*/
+
+
+
+  /*rules aside class cart*/
+  .cart figure
+  {
+    width: 40%;
+  }
+  /*end rules aside class cart*/
+
+}
+/*end rules page annonce*/
 
 
 
