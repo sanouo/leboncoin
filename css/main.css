@@ -400,6 +400,46 @@ select , input , textarea
 
 
 
+/*rules page offres*/
+
+/*rules common*/
+.search , .ile
+{
+  display: none;
+}
+/*end rules common*/
+
+
+/*rules aside class a la une*/
+.une
+{
+  border: 2px solid #f56b2a;
+  margin: 1em;
+  margin-top: 6em;
+}
+
+.alaune
+{
+  background-color: #f56b2a;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin-top: 0;
+}
+
+.neuve p , .scenic p
+{
+  color: #369;
+}
+
+.neuve .tari  , .scenic .tari
+{
+  color: #f56b2a;
+}
+/* rules aside class a la une*/
+
+/*end rules page offres*/
+
 
 
 
