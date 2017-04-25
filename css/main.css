@@ -438,6 +438,42 @@ select , input , textarea
 }
 /* rules aside class a la une*/
 
+
+
+
+/*rules nav class trie*/
+.trie ul
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trie .par , .trie .pro
+{
+  background-color: lightgrey;
+  border: 1px solid grey;
+  padding-top: 1em;
+}
+
+.trie .to
+{
+  color: #f56b2a;
+  border: 1px solid grey;
+  padding-top: 1em;
+}
+
+.trie .tr
+{
+  border: 3px solid #4183d7;
+  color: #4183d7;
+  border-radius: 10px;
+}
+/*end rules nav class trie*/
+
+
+
+
+
 /*end rules page offres*/
 
 
